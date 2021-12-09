@@ -1,0 +1,31 @@
+.color {
+  background-color: #f8f9fa;
+}
+
+.text {
+  color: sandybrown;
+  text-align: center;
+}
+.bor {
+  background-color: orange;
+  padding: 0px 0px;
+}
+.video {
+  padding: 30px 50px;
+}
+.end_text {
+  color: sandybrown;
+}
+.header {
+  height: 70px;
+}
+
+.center{
+    margin-top: 10px;
+}
+
+.button{
+    height: 50px;
+    width: 200px;
+    font-size: large;
+}

@@ -1,0 +1,78 @@
+.img {
+  position: relative;
+  transition-duration: 1s;
+}
+
+.img:hover {
+  box-shadow: 0px 1.5px 2.2px rgba(0, 0, 0, 0.02),
+    0px 3.7px 5.3px rgba(0, 0, 0, 0.028), 0px 6.9px 10px rgba(0, 0, 0, 0.035),
+    0px 12.3px 17.9px rgba(0, 0, 0, 0.042), 0px 23px 33.4px rgba(0, 0, 0, 0.05),
+    0px 55px 80px rgba(0, 0, 0, 0.07);
+  transform: translateY(-25px);
+}
+
+.center {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bcenter {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  margin-right: 100px;
+  font-size: 100px;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+/* 轮播图 */
+ol.carousel-indicators li {
+  width: 1em;
+  height: 1em;
+}
+
+ol.carousel-indicators li.active {
+  width: 1em;
+  height: 1em;
+  background-color: blue;
+}
+
+.center-vertical {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  height: 100px;
+}
+
+.left {
+  text-shadow: none;
+}
+
+.right {
+  text-shadow: none;
+}
+
+.button {
+  background-image: none;
+}
+
+.image_title {
+  box-shadow: 5px 10px 5px #fcf9f9;
+  background-color: white;
+  margin-top: 145px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.active_name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: -20px;
+}
